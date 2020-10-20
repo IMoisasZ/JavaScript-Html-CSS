@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Carros de 7 lugares</title>
+    <link rel="stylesheet" href="carros.css">
+</head>
+<body>
+    <h1>CADASTRO DE CARROS COM 7 LUGARES</h1>
+    <h2>Caros cadastrados!</h2>
+    <div id="dadosFormulario"><br>
+        <form id="pesquisa" action="">
+            <label title="numeroCarro">ID: </label>
+            <input type="text" id="idCarro" readonly></input>
+            <label title="marca">Marca: </label>
+            <input type="text" id="marcaCarro" readonly></input>
+            <label title="Modelo">Modelo: </label>
+            <input type="text" id="txtModelo" readonly></input><br><br>
+            <label title="carrosCadastrados">Lista de Carros Cadastrados</label><br>
+            <select id="listarCarros" size="8" ondblclick="carregarDados(carros)"></select>
+        </form><br>
+    
+    <form id="marcaCarro">
+            <label title="nomeMarca">Marca: </label>
+            <input type="text" id="marca"></input>
+            <button id="btnCadastroMarca" onclick="cadastrarMarca()">Incluir marca</button><br>
+            <label title="marcasCadastradas">Marcas cadastradas</label><br>
+            <ul id="listarMarcas"></ul>
+    </form>
+</div>
+    <script src="carros.js"></script>
+</body>
+</html>

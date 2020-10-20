@@ -1,0 +1,19 @@
+div {
+    background-color: beige;
+    height: 250px;
+    width: 550px;
+
+}
+#pesquisa{
+    text-align: justify;
+    margin-left: 10px;
+}
+form{
+    text-align: justify;
+    margin-left: 10px;
+}
+
+#idCarro{
+    width: 10px;
+    text-align: left;
+}
